@@ -7,4 +7,7 @@ public class DebugEleven1
       DebugRowboat myBoat = new Rowboat();
       System.out.println(myBoat.toString());
    }
+
+   private static class Rowboat extends DebugRowboat {
+   }
 }
